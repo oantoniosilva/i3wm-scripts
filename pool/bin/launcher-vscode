@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+is_runnung="$(wmctrl -lx | grep -i "code\.Code")"
+
+if [[ -z $is_runnung ]]; then
+    i3-msg 'exec code'
+    sleep 1
+fi
+
+i3-msg '[class="Code"] focus'
