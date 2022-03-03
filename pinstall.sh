@@ -81,8 +81,6 @@ funcionamento em qualquer outra instalação além da minha!
 
 Use por sua conta e risco.
 
-Blau Araujo <blau@debxp.org>
-https://debxp.org
 "
 confirmar
 

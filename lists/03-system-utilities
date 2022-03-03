@@ -12,7 +12,7 @@
 # gnome-system-tools
 
 ## Gerenciamento da tela de login...
-lightdm-gtk-greeter-settings
+#lightdm-gtk-greeter-settings
 
 ## Impressoras...
 # system-config-printer

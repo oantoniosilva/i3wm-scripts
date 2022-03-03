@@ -16,7 +16,7 @@ firmware-linux-nonfree
 amd64-microcode
 
 ## Hardware de rede Atheros
-firmware-atheros
+#firmware-atheros
 
 ## hardware de rede Realtek
 firmware-realtek

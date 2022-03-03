@@ -21,7 +21,7 @@ font-manager
 ttf-mscorefonts-installer
 
 ## Visualizadores de imagens
-sxiv
+# sxiv
 # gthumb
 # eog
 # ristretto

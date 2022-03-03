@@ -34,7 +34,7 @@ $sup+Shift+F12               $exe $bin_path/dmenu-i3-logout
 
 # terminal ------------------------------------------------------------------- #
 
-$sup+Return                  $exe i3-sensible-terminal
+$sup+Return                  $exe kitty
 
 # focus ---------------------------------------------------------------------- #
 
@@ -192,8 +192,6 @@ $sup+q                 kill
 default_border pixel 2
 $sup+b                       border toggle
 
-# Geany
-for_window [class="[Gg]eany"]           title_format "  $ico_editor  %title"
 
 # LibreOffice
 for_window [class="libreoffice-writer"] title_format "  $ico_document  %title"
@@ -206,7 +204,7 @@ for_window [class="[Cc]ode"]            title_format "  $ico_editor  %title"
 for_window [class="[Ff]irefox"]         title_format "  $ico_firefox  %title"
 
 # Terminal
-for_window [class="[Xx]fce4-terminal"]  title_format "  $ico_terminal  %title"
+for_window [class="[Kk]itty"]           title_format "  $ico_terminal  %title"
 
 # Thunderbird
 for_window [class="[Tt]hunderbird"]     title_format "  $ico_email  %title"
@@ -284,7 +282,7 @@ bindsym --release Caps_Lock  $exe pkill -SIGRTMIN+11 i3blocks
 
 # screenshots ---------------------------------------------------------------- #
 
-bindsym Print                $exe xfce4-screenshooter
+bindsym Print                $exe scrot
 
 # volume control and i3blocks volume status ---------------------------------- #
 
@@ -364,6 +362,5 @@ $exe_always nitrogen --restore
 $exe /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 $exe xfce4-power-manager
 $exe nm-applet
-# $exe wicd-gtk -t
 
 # ---------------------------------------------------------------------------- #

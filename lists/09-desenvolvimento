@@ -9,23 +9,9 @@
 # ----------------------------------------------------------
 
 ## Editores
-geany
-geany-plugins
-vim
+# geany
+# geany-plugins
+# vim
 # idle3
 # bluefish
 # emacs
-
-## PHP-CLI
-php-cli
-php-fpm
-php-json
-php-pdo
-php-mysql
-php-zip
-php-gd
-php-mbstring
-php-curl
-php-xml
-php-pear
-php-bcmath

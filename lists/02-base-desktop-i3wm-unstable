@@ -17,10 +17,10 @@
 
 ## Gerenciador de Janelas...
 xorg
-lightdm
-lightdm-gtk-greeter
+#lightdm
+#lightdm-gtk-greeter
 i3-wm
-i3lock
+#i3lock
 i3blocks
 suckless-tools
 
@@ -36,7 +36,7 @@ pcmanfm
 gvfs-backends
 gvfs-fuse
 xarchiver
-file-roller
+# file-roller
 p7zip-full
 rar
 unrar
@@ -45,21 +45,23 @@ unrar
 catfish
 
 ## Terminal padrão...
-xfce4-terminal
+kitty
+# xfce4-terminal
 # rxvt-unicode-256color
 
 ## Notificações...
-# dunst
-xfce4-notifyd
+dunst
+# xfce4-notifyd
 
 ## Compositor de tela...
+# picom
 compton
 # xcompmgr
 
 ## Aparência...
 lxappearance
-numix-gtk-theme
-numix-icon-theme
+# numix-gtk-theme
+# numix-icon-theme
 # numix-icon-theme-circle
 papirus-icon-theme
 arc-theme
@@ -81,12 +83,12 @@ pulseaudio
 pavucontrol
 
 ## Caputura de tela...
-xfce4-screenshooter
-# scrot
+# xfce4-screenshooter
+scrot
 
 ## Visualizadores de imagens
-sxiv
-gthumb
+#sxiv
+#gthumb
 # eog
 # ristretto
 feh
@@ -95,7 +97,7 @@ feh
 xfce4-power-manager
 
 ## Calendário...
-gsimplecal
+# gsimplecal
 
 ## Fixar teclado numérico...
 numlockx
@@ -103,7 +105,8 @@ numlockx
 ## Editores...
 # geany
 # geany-plugins
-vim
+# vim
+neovim
 
 ## Correção ortográfica...
 aspell
@@ -112,7 +115,7 @@ aspell-pt-br
 ## Informações do sistema...
 inxi
 htop
-neofetch
+# neofetch
 
 ## Ferramentas de controle de janelas...
 wmctrl
@@ -128,7 +131,7 @@ policykit-1-gnome
 ## Integração com o shell...
 zenity
 yad
-fzf
+# fzf
 
 ## XDG
 xdg-user-dirs
